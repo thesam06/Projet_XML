@@ -1,4 +1,6 @@
 target
+nbproject
+.idea
 .classpath
 .project
 .settings
