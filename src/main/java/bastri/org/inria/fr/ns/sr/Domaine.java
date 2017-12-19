@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2017.12.19 à 03:26:39 PM CET 
+// Généré le : 2017.12.19 à 10:33:10 PM CET 
 //
 
 
@@ -16,17 +16,17 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour composition complex type.
+ * <p>Classe Java pour domaine complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="composition"&gt;
+ * &lt;complexType name="domaine"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
- *       &lt;attribute name="refid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="url" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="version" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="classification" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="siid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *     &lt;/extension&gt;
  *   &lt;/simpleContent&gt;
  * &lt;/complexType&gt;
@@ -35,19 +35,19 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "composition", propOrder = {
+@XmlType(name = "domaine", propOrder = {
     "value"
 })
-public class Composition {
+public class Domaine {
 
     @XmlValue
     protected String value;
-    @XmlAttribute(name = "refid")
-    protected String refid;
-    @XmlAttribute(name = "url")
-    protected String url;
-    @XmlAttribute(name = "version")
-    protected String version;
+    @XmlAttribute(name = "lang")
+    protected String lang;
+    @XmlAttribute(name = "classification")
+    protected String classification;
+    @XmlAttribute(name = "siid")
+    protected String siid;
 
     /**
      * Obtient la valeur de la propriété value.
@@ -74,75 +74,75 @@ public class Composition {
     }
 
     /**
-     * Obtient la valeur de la propriété refid.
+     * Obtient la valeur de la propriété lang.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getRefid() {
-        return refid;
+    public String getLang() {
+        return lang;
     }
 
     /**
-     * Définit la valeur de la propriété refid.
+     * Définit la valeur de la propriété lang.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setRefid(String value) {
-        this.refid = value;
+    public void setLang(String value) {
+        this.lang = value;
     }
 
     /**
-     * Obtient la valeur de la propriété url.
+     * Obtient la valeur de la propriété classification.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getUrl() {
-        return url;
+    public String getClassification() {
+        return classification;
     }
 
     /**
-     * Définit la valeur de la propriété url.
+     * Définit la valeur de la propriété classification.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setUrl(String value) {
-        this.url = value;
+    public void setClassification(String value) {
+        this.classification = value;
     }
 
     /**
-     * Obtient la valeur de la propriété version.
+     * Obtient la valeur de la propriété siid.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getVersion() {
-        return version;
+    public String getSiid() {
+        return siid;
     }
 
     /**
-     * Définit la valeur de la propriété version.
+     * Définit la valeur de la propriété siid.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setVersion(String value) {
-        this.version = value;
+    public void setSiid(String value) {
+        this.siid = value;
     }
 
 }

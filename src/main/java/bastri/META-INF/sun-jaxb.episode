@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2017.12.19 à 10:33:10 PM CET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://ns.inria.fr/dsi/si/app/bastri">
+    <schemaBindings map="false">
+      <package name="org.inria.fr.ns.sr"/>
+    </schemaBindings>
+    <bindings scd="tns:structureInrias">
+      <class ref="org.inria.fr.ns.sr.StructureInrias"/>
+    </bindings>
+    <bindings scd="tns:structureinria">
+      <class ref="org.inria.fr.ns.sr.Structureinria"/>
+    </bindings>
+    <bindings scd="~tns:urlTeam">
+      <class ref="org.inria.fr.ns.sr.UrlTeam"/>
+    </bindings>
+    <bindings scd="~tns:keywords">
+      <class ref="org.inria.fr.ns.sr.Keywords"/>
+    </bindings>
+    <bindings scd="~tns:domaine">
+      <class ref="org.inria.fr.ns.sr.Domaine"/>
+    </bindings>
+    <bindings scd="~tns:theme">
+      <class ref="org.inria.fr.ns.sr.Theme"/>
+    </bindings>
+    <bindings scd="~tns:entite">
+      <class ref="org.inria.fr.ns.sr.Entite"/>
+    </bindings>
+    <bindings scd="~tns:resume">
+      <class ref="org.inria.fr.ns.sr.Resume"/>
+    </bindings>
+    <bindings scd="~tns:corps">
+      <class ref="org.inria.fr.ns.sr.Corps"/>
+    </bindings>
+    <bindings scd="~tns:cri">
+      <class ref="org.inria.fr.ns.sr.Cri"/>
+    </bindings>
+    <bindings scd="~tns:personne">
+      <class ref="org.inria.fr.ns.sr.Personne"/>
+    </bindings>
+    <bindings scd="~tns:adressegeographique">
+      <class ref="org.inria.fr.ns.sr.Adressegeographique"/>
+    </bindings>
+    <bindings scd="~tns:lien_structure_exterieure">
+      <class ref="org.inria.fr.ns.sr.LienStructureExterieure"/>
+    </bindings>
+    <bindings scd="~tns:structure_exterieure">
+      <class ref="org.inria.fr.ns.sr.StructureExterieure"/>
+    </bindings>
+    <bindings scd="~tns:umr">
+      <class ref="org.inria.fr.ns.sr.Umr"/>
+    </bindings>
+    <bindings scd="~tns:directeur">
+      <class ref="org.inria.fr.ns.sr.Directeur"/>
+    </bindings>
+    <bindings scd="~tns:composition">
+      <class ref="org.inria.fr.ns.sr.Composition"/>
+    </bindings>
+    <bindings scd="~tns:researchStructureCategory">
+      <typesafeEnumClass ref="org.inria.fr.ns.sr.ResearchStructureCategory"/>
+    </bindings>
+  </bindings>
+</bindings>
+

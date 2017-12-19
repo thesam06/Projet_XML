@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2017.12.19 à 03:26:39 PM CET 
+// Généré le : 2017.12.19 à 10:33:10 PM CET 
 //
 
 
@@ -16,12 +16,12 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour urlTeam complex type.
+ * <p>Classe Java pour resume complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="urlTeam"&gt;
+ * &lt;complexType name="resume"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
  *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
@@ -33,10 +33,10 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "urlTeam", propOrder = {
+@XmlType(name = "resume", propOrder = {
     "value"
 })
-public class UrlTeam {
+public class Resume {
 
     @XmlValue
     protected String value;

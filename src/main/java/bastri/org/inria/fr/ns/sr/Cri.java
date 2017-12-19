@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2017.12.19 à 03:26:39 PM CET 
+// Généré le : 2017.12.19 à 10:33:10 PM CET 
 //
 
 
@@ -16,15 +16,15 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour keywords complex type.
+ * <p>Classe Java pour cri complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="keywords"&gt;
+ * &lt;complexType name="cri"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
- *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="siid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *     &lt;/extension&gt;
  *   &lt;/simpleContent&gt;
  * &lt;/complexType&gt;
@@ -33,15 +33,15 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "keywords", propOrder = {
+@XmlType(name = "cri", propOrder = {
     "value"
 })
-public class Keywords {
+public class Cri {
 
     @XmlValue
     protected String value;
-    @XmlAttribute(name = "lang")
-    protected String lang;
+    @XmlAttribute(name = "siid")
+    protected String siid;
 
     /**
      * Obtient la valeur de la propriété value.
@@ -68,27 +68,27 @@ public class Keywords {
     }
 
     /**
-     * Obtient la valeur de la propriété lang.
+     * Obtient la valeur de la propriété siid.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getLang() {
-        return lang;
+    public String getSiid() {
+        return siid;
     }
 
     /**
-     * Définit la valeur de la propriété lang.
+     * Définit la valeur de la propriété siid.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setLang(String value) {
-        this.lang = value;
+    public void setSiid(String value) {
+        this.siid = value;
     }
 
 }

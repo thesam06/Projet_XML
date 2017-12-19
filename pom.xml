@@ -54,7 +54,7 @@
                         <goal>xjc</goal>
                     </goals>
 		    <configuration>
-			<outputDirectory>src/main/java</outputDirectory>
+			<outputDirectory>src/main/java/bastri</outputDirectory>
 			<packageName>org.inria.fr.ns.sr</packageName>
 			<sources>
 				<source>src/main/resources/schemas/bastri.xsd</source>
@@ -69,7 +69,7 @@
                         <goal>xjc</goal>
                     </goals>
 		    <configuration>
-			<outputDirectory>src/main/java</outputDirectory>
+			<outputDirectory>src/main/java/bastriCris</outputDirectory>
 			<packageName>org.inria.fr.ns.cr</packageName>
 			<sources>
 				<source>src/main/resources/schemas/bastriCris.xsd</source>
