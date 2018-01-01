@@ -18,13 +18,14 @@ import java.io.*;
 import java.net.*;
 import javax.xml.bind.DatatypeConverter;
 
-
+/** Cette classe contient des methodes pour la connexion a exist-db */
 public class XQueryUtil {
 
 	public static final String OUTPUT_FILE = "groupe.xqy";
 
 	public static final String LIEN_COLLECTION = "http://localhost:8080/exist/rest/db/raweb/";
 
+	/** Cette methode permet d'executer une fonction xquery dont le nom est donne en parametre sur exist-db */
 	public static String execXQuery(String nomFunction){
 		String res = "";
 		String credEnc = getEncodedCredentials();
