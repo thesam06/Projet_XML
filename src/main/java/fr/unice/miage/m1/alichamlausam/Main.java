@@ -1,9 +1,14 @@
 package fr.unice.miage.m1.alichamlausam;
+
 import org.xmldb.api.base.*;
 import org.xmldb.api.modules.*;
 import org.xmldb.api.*;
 import javax.xml.transform.OutputKeys;
 import org.exist.xmldb.EXistResource;
+import java.nio.charset.*;
+import java.nio.file.*;
+
+
 public class Main {
 
 	public static void main(String[] args) {

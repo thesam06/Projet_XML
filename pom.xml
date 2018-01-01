@@ -124,7 +124,7 @@
 	          </execution>
 	      </executions>
     	  <configuration>
-    	    <mainClass>fr.unice.miage.m1.alichamlausam.Main</mainClass>
+    	    <mainClass>fr.unice.miage.m1.alichamlausam.UploadUtil</mainClass>
     	  </configuration>
     	</plugin> 
     </plugins>
