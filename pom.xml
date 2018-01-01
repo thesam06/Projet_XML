@@ -48,6 +48,12 @@
        <version>0.9.2</version>
    </dependency>
 
+   <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-servlet -->
+   <dependency>
+       <groupId>com.sun.jersey</groupId>
+       <artifactId>jersey-servlet</artifactId>
+       <version>1.17.1</version>
+   </dependency>
 
    
   </dependencies>
@@ -124,7 +130,7 @@
 	          </execution>
 	      </executions>
     	  <configuration>
-    	    <mainClass>fr.unice.miage.m1.alichamlausam.UploadUtil</mainClass>
+    	    <mainClass>fr.unice.miage.m1.alichamlausam.XQueryUtil</mainClass>
     	  </configuration>
     	</plugin> 
     </plugins>

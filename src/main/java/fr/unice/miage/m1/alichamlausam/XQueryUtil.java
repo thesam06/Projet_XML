@@ -19,22 +19,55 @@ import java.net.*;
 import javax.xml.bind.DatatypeConverter;
 
 
-public class UploadUtil {
+public class XQueryUtil {
 
 	public static final String OUTPUT_FILE = "groupe.xqy";
+
+	public static final String LIEN_COLLECTION = "http://localhost:8080/exist/rest/db/raweb/";
+
+	public static String execXQuery(String nomFunction){
+		String res = "";
+		String credEnc = getEncodedCredentials();
+		try{
+			URL url =new URL(LIEN_COLLECTION+OUTPUT_FILE+"?fn="+nomFunction);
+			HttpURLConnection huc = (HttpURLConnection)url.openConnection();
+			huc.setRequestMethod("GET");
+			huc.setRequestProperty("Authorization","Basic " + credEnc );
+			huc.setRequestProperty("User-Agent","Mozilla-5.0");
+
+			BufferedReader br= new BufferedReader(new InputStreamReader(huc.getInputStream()));
+			for (String line= br.readLine() ;line!=null; line=br.readLine() ) {
+				res+=line;
+				
+			}
+
+		}catch(IOException e){
+			res = e.getMessage();
+			e.printStackTrace();
+
+		}
+		return res;
+
+	}
+
+
+	private static String getEncodedCredentials(){
+		//Authencification de la base de donnée (http basic authorization)
+		String auth = "admin:";
+		//1 ça prend le usname:  le mot de passe
+		//2 le crypter avec le system base64
+		//3 rajouter une entete qui s'appelle authorization dans la requete http qui a coe valeur "Basic " suivie par le precedent
+		String credEnc = DatatypeConverter.printBase64Binary(auth.getBytes(StandardCharsets.UTF_8));
+		return credEnc;
+	}
 
 	
 	public static void uploadFile(String name ) {
 		try {
-			//Authencification de la base de donnée (http basic authorization)
-			String auth = "admin:";
-			//1 ça prend le usname:  le mot de passe
-			//2 le crypter avec le system base64
-			//3 rajouter une entete qui s'appelle authorization dans la requete http qui a coe valeur "Basic " suivie par le precedent
-			String credEnc = DatatypeConverter.printBase64Binary(auth.getBytes(StandardCharsets.UTF_8));
+			String credEnc =getEncodedCredentials();
 
 			//Se connecter a existbd et y uploader le fichier groupe.xqy
-			URL url = new URL("http://localhost:8080/exist/rest/db/apps/ProjetXML/" + OUTPUT_FILE );
+			URL url = new URL(LIEN_COLLECTION+ OUTPUT_FILE );
 			System.out.println(url);
 			HttpURLConnection huc = (HttpURLConnection)url.openConnection();
 			huc.setDoOutput(true);

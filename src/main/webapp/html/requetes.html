@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>Il y a totalement <SPAN id="NbreTotalDePersonne"></SPAN> personnes qui travaillent dans différents projets.</p>
+
+	<script type="text/javascript">
+		
+		window.addEventListener("load" , function(e){
+
+			fetch("http://localhost:8082/inriaprojxml/rest/personne/total").then(function (reponse) {
+				return reponse.text();
+			}).then(function(text){
+				document.getElementById("NbreTotalDePersonne").innerHTML=text;
+			});
+		});
+
+	</script>
+</body>
+</html>
