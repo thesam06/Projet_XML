@@ -1,8 +1,8 @@
 //
-// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par l'implÃ©mentation de rÃ©fÃ©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2018.01.01 à 03:37:04 PM CET 
+// Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
+// GÃ©nÃ©rÃ© le : 2018.01.02 Ã  05:17:41 PM CET 
 //
 
 
@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlValue;
 /**
  * <p>Classe Java pour composition complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="composition"&gt;
@@ -50,7 +50,7 @@ public class Composition {
     protected String version;
 
     /**
-     * Obtient la valeur de la propriété value.
+     * Obtient la valeur de la propriÃ©tÃ© value.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class Composition {
     }
 
     /**
-     * Définit la valeur de la propriété value.
+     * DÃ©finit la valeur de la propriÃ©tÃ© value.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class Composition {
     }
 
     /**
-     * Obtient la valeur de la propriété refid.
+     * Obtient la valeur de la propriÃ©tÃ© refid.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class Composition {
     }
 
     /**
-     * Définit la valeur de la propriété refid.
+     * DÃ©finit la valeur de la propriÃ©tÃ© refid.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class Composition {
     }
 
     /**
-     * Obtient la valeur de la propriété url.
+     * Obtient la valeur de la propriÃ©tÃ© url.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class Composition {
     }
 
     /**
-     * Définit la valeur de la propriété url.
+     * DÃ©finit la valeur de la propriÃ©tÃ© url.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class Composition {
     }
 
     /**
-     * Obtient la valeur de la propriété version.
+     * Obtient la valeur de la propriÃ©tÃ© version.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class Composition {
     }
 
     /**
-     * Définit la valeur de la propriété version.
+     * DÃ©finit la valeur de la propriÃ©tÃ© version.
      * 
      * @param value
      *     allowed object is

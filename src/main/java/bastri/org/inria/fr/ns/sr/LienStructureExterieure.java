@@ -1,8 +1,8 @@
 //
-// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par l'implÃ©mentation de rÃ©fÃ©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2018.01.01 à 03:37:04 PM CET 
+// Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
+// GÃ©nÃ©rÃ© le : 2018.01.02 Ã  05:17:41 PM CET 
 //
 
 
@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour lien_structure_exterieure complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="lien_structure_exterieure"&gt;
@@ -59,7 +59,7 @@ public class LienStructureExterieure {
     protected String version;
 
     /**
-     * Obtient la valeur de la propriété dateDebut.
+     * Obtient la valeur de la propriÃ©tÃ© dateDebut.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Définit la valeur de la propriété dateDebut.
+     * DÃ©finit la valeur de la propriÃ©tÃ© dateDebut.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Obtient la valeur de la propriété dateFin.
+     * Obtient la valeur de la propriÃ©tÃ© dateFin.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Définit la valeur de la propriété dateFin.
+     * DÃ©finit la valeur de la propriÃ©tÃ© dateFin.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Obtient la valeur de la propriété typeLien.
+     * Obtient la valeur de la propriÃ©tÃ© typeLien.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Définit la valeur de la propriété typeLien.
+     * DÃ©finit la valeur de la propriÃ©tÃ© typeLien.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Obtient la valeur de la propriété structureExterieure.
+     * Obtient la valeur de la propriÃ©tÃ© structureExterieure.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Définit la valeur de la propriété structureExterieure.
+     * DÃ©finit la valeur de la propriÃ©tÃ© structureExterieure.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Obtient la valeur de la propriété version.
+     * Obtient la valeur de la propriÃ©tÃ© version.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class LienStructureExterieure {
     }
 
     /**
-     * Définit la valeur de la propriété version.
+     * DÃ©finit la valeur de la propriÃ©tÃ© version.
      * 
      * @param value
      *     allowed object is

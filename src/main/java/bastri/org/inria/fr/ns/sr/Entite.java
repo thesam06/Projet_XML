@@ -1,8 +1,8 @@
 //
-// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par l'implÃ©mentation de rÃ©fÃ©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2018.01.01 à 03:37:04 PM CET 
+// Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
+// GÃ©nÃ©rÃ© le : 2018.01.02 Ã  05:17:41 PM CET 
 //
 
 
@@ -20,7 +20,7 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour entite complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="entite"&gt;
@@ -79,7 +79,7 @@ public class Entite {
     protected String siid;
 
     /**
-     * Obtient la valeur de la propriété sigle.
+     * Obtient la valeur de la propriÃ©tÃ© sigle.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété sigle.
+     * DÃ©finit la valeur de la propriÃ©tÃ© sigle.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class Entite {
     }
 
     /**
-     * Obtient la valeur de la propriété personne.
+     * Obtient la valeur de la propriÃ©tÃ© personne.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété personne.
+     * DÃ©finit la valeur de la propriÃ©tÃ© personne.
      * 
      * @param value
      *     allowed object is
@@ -127,7 +127,7 @@ public class Entite {
     }
 
     /**
-     * Obtient la valeur de la propriété adressegeographique.
+     * Obtient la valeur de la propriÃ©tÃ© adressegeographique.
      * 
      * @return
      *     possible object is
@@ -139,7 +139,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété adressegeographique.
+     * DÃ©finit la valeur de la propriÃ©tÃ© adressegeographique.
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class Entite {
     }
 
     /**
-     * Obtient la valeur de la propriété hebergeur.
+     * Obtient la valeur de la propriÃ©tÃ© hebergeur.
      * 
      * @return
      *     possible object is
@@ -163,7 +163,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété hebergeur.
+     * DÃ©finit la valeur de la propriÃ©tÃ© hebergeur.
      * 
      * @param value
      *     allowed object is
@@ -175,7 +175,7 @@ public class Entite {
     }
 
     /**
-     * Obtient la valeur de la propriété typeentite.
+     * Obtient la valeur de la propriÃ©tÃ© typeentite.
      * 
      * @return
      *     possible object is
@@ -187,7 +187,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété typeentite.
+     * DÃ©finit la valeur de la propriÃ©tÃ© typeentite.
      * 
      * @param value
      *     allowed object is
@@ -199,7 +199,7 @@ public class Entite {
     }
 
     /**
-     * Obtient la valeur de la propriété commentaire.
+     * Obtient la valeur de la propriÃ©tÃ© commentaire.
      * 
      * @return
      *     possible object is
@@ -211,7 +211,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété commentaire.
+     * DÃ©finit la valeur de la propriÃ©tÃ© commentaire.
      * 
      * @param value
      *     allowed object is
@@ -252,7 +252,7 @@ public class Entite {
     }
 
     /**
-     * Obtient la valeur de la propriété principal.
+     * Obtient la valeur de la propriÃ©tÃ© principal.
      * 
      * @return
      *     possible object is
@@ -264,7 +264,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété principal.
+     * DÃ©finit la valeur de la propriÃ©tÃ© principal.
      * 
      * @param value
      *     allowed object is
@@ -276,7 +276,7 @@ public class Entite {
     }
 
     /**
-     * Obtient la valeur de la propriété codestructure.
+     * Obtient la valeur de la propriÃ©tÃ© codestructure.
      * 
      * @return
      *     possible object is
@@ -288,7 +288,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété codestructure.
+     * DÃ©finit la valeur de la propriÃ©tÃ© codestructure.
      * 
      * @param value
      *     allowed object is
@@ -300,7 +300,7 @@ public class Entite {
     }
 
     /**
-     * Obtient la valeur de la propriété siid.
+     * Obtient la valeur de la propriÃ©tÃ© siid.
      * 
      * @return
      *     possible object is
@@ -312,7 +312,7 @@ public class Entite {
     }
 
     /**
-     * Définit la valeur de la propriété siid.
+     * DÃ©finit la valeur de la propriÃ©tÃ© siid.
      * 
      * @param value
      *     allowed object is
