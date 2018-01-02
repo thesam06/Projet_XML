@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="XML project on Raweb Inria">
+  <meta name="author" content="Laure Vincent-Cuaz">
+
+  <title>Raweb Inria - Équipes</title>
+
+  <!-- CSS files -->
+  <link rel="stylesheet" href="../library/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../library/DataTables-1.10.16/css/dataTables.bootstrap4.min.css"/>
+  <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary navbar-toggleable-md navbar-expand-md navbar-inverse fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">Raweb Inria</a>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="centres-recherche.html">Centres de recherche</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Équipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="personnels.html">Personnels d'équipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="statistiques.html">Données statistiques</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div id="teamsMap" style="width:100%;height:600px;"></div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <table class="table table-responsive table-bordered table-hover table-sm order-column">
+          <thead>
+            <tr>
+              <th class="align-middle" scope="col">#</th>
+              <th class="text-center" scope="col">Centre de recherche</th>
+              <th class="text-center" scope="col">Nom du projet</th>
+              <th class="text-center" scope="col">Thème de recherche</th>
+              <th class="text-center" scope="col">Responsable DCR</th>
+              <th class="text-center" scope="col">Responsable DS</th>
+              <th class="text-center" scope="col">Responsable DA</th>
+              <th class="text-center" scope="col">Responsable VPCP</th>
+              <th class="text-center" scope="col">URL de l'équipe</th>
+              <th class="text-center" scope="col">Nombre de personnes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+
+  <!-- JS files -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../library/jQuery-1.12.3/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="../library/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="../library/DataTables-1.10.16/js/DataTables/dataTables.bootstrap4.min.js"></script>
+
+  <script>
+  function initMapTeams() {
+    var centreLat = 46.8;
+    var centreLng = 5;
+    var latlng = new google.maps.LatLng(centreLat, centreLng);
+    var zoomMap = 6;
+    var options = {
+      zoom: zoomMap,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var teamsMap = new google.maps.Map(document.getElementById("teamsMap"), options);
+
+    var marqueur = new google.maps.Marker({
+      position: new google.maps.LatLng(43.696, 7.289429),
+      map: teamsMap,
+      title: "Nice"
+    });
+    var marqueur1 = new google.maps.Marker({
+      position: new google.maps.LatLng(48.854733, 2.350879),
+      map: teamsMap,
+      title: "Paris"
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWVVmEYiKBHdXFOYh_6iDMWoHQ02lHGpw&callback=initMapTeams"></script>
+</body>
+</html>
