@@ -98,6 +98,6 @@ public class XQueryUtil {
 	}
 
 	public static void main(String[] args) {
-		uploadFile("test.xqy");
+		uploadFile("requetes.xqy");
 	}
 }
