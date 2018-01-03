@@ -1,8 +1,13 @@
 //
-// Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par l'implÃ©mentation de rÃ©fÃ©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+<<<<<<< HEAD
 // Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
 // GÃ©nÃ©rÃ© le : 2018.01.02 Ã  05:29:47 PM CET 
+=======
+// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+// Généré le : 2018.01.03 à 12:34:41 PM CET 
+>>>>>>> c0b9d0b754ce32b736d01570bdbe021aa6447a0e
 //
 
 
@@ -24,7 +29,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 /**
  * <p>Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -148,7 +153,7 @@ public class Crs {
     /**
      * <p>Classe Java pour anonymous complex type.
      * 
-     * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+     * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -253,7 +258,7 @@ public class Crs {
         protected String siid;
 
         /**
-         * Obtient la valeur de la propriÃ©tÃ© numnatstructrep.
+         * Obtient la valeur de la propriété numnatstructrep.
          * 
          * @return
          *     possible object is
@@ -265,7 +270,7 @@ public class Crs {
         }
 
         /**
-         * DÃ©finit la valeur de la propriÃ©tÃ© numnatstructrep.
+         * Définit la valeur de la propriété numnatstructrep.
          * 
          * @param value
          *     allowed object is
@@ -277,7 +282,7 @@ public class Crs {
         }
 
         /**
-         * Obtient la valeur de la propriÃ©tÃ© dateOuverture.
+         * Obtient la valeur de la propriété dateOuverture.
          * 
          * @return
          *     possible object is
@@ -289,7 +294,7 @@ public class Crs {
         }
 
         /**
-         * DÃ©finit la valeur de la propriÃ©tÃ© dateOuverture.
+         * Définit la valeur de la propriété dateOuverture.
          * 
          * @param value
          *     allowed object is
@@ -301,7 +306,7 @@ public class Crs {
         }
 
         /**
-         * Obtient la valeur de la propriÃ©tÃ© dateFermeture.
+         * Obtient la valeur de la propriété dateFermeture.
          * 
          * @return
          *     possible object is
@@ -313,7 +318,7 @@ public class Crs {
         }
 
         /**
-         * DÃ©finit la valeur de la propriÃ©tÃ© dateFermeture.
+         * Définit la valeur de la propriété dateFermeture.
          * 
          * @param value
          *     allowed object is
@@ -325,7 +330,7 @@ public class Crs {
         }
 
         /**
-         * Obtient la valeur de la propriÃ©tÃ© sigle.
+         * Obtient la valeur de la propriété sigle.
          * 
          * @return
          *     possible object is
@@ -337,7 +342,7 @@ public class Crs {
         }
 
         /**
-         * DÃ©finit la valeur de la propriÃ©tÃ© sigle.
+         * Définit la valeur de la propriété sigle.
          * 
          * @param value
          *     allowed object is
@@ -349,7 +354,7 @@ public class Crs {
         }
 
         /**
-         * Obtient la valeur de la propriÃ©tÃ© libelle.
+         * Obtient la valeur de la propriété libelle.
          * 
          * @return
          *     possible object is
@@ -361,7 +366,7 @@ public class Crs {
         }
 
         /**
-         * DÃ©finit la valeur de la propriÃ©tÃ© libelle.
+         * Définit la valeur de la propriété libelle.
          * 
          * @param value
          *     allowed object is
@@ -373,7 +378,7 @@ public class Crs {
         }
 
         /**
-         * Obtient la valeur de la propriÃ©tÃ© idgef.
+         * Obtient la valeur de la propriété idgef.
          * 
          */
         public byte getIdgef() {
@@ -381,7 +386,7 @@ public class Crs {
         }
 
         /**
-         * DÃ©finit la valeur de la propriÃ©tÃ© idgef.
+         * Définit la valeur de la propriété idgef.
          * 
          */
         public void setIdgef(byte value) {
@@ -389,7 +394,7 @@ public class Crs {
         }
 
         /**
-         * Obtient la valeur de la propriÃ©tÃ© adressegeographique.
+         * Obtient la valeur de la propriété adressegeographique.
          * 
          * @return
          *     possible object is
@@ -401,7 +406,7 @@ public class Crs {
         }
 
         /**
-         * DÃ©finit la valeur de la propriÃ©tÃ© adressegeographique.
+         * Définit la valeur de la propriété adressegeographique.
          * 
          * @param value
          *     allowed object is
@@ -442,7 +447,7 @@ public class Crs {
         }
 
         /**
-         * Obtient la valeur de la propriÃ©tÃ© siid.
+         * Obtient la valeur de la propriété siid.
          * 
          * @return
          *     possible object is
@@ -454,7 +459,7 @@ public class Crs {
         }
 
         /**
-         * DÃ©finit la valeur de la propriÃ©tÃ© siid.
+         * Définit la valeur de la propriété siid.
          * 
          * @param value
          *     allowed object is
@@ -469,7 +474,7 @@ public class Crs {
         /**
          * <p>Classe Java pour anonymous complex type.
          * 
-         * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+         * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
          * 
          * <pre>
          * &lt;complexType&gt;
@@ -528,7 +533,7 @@ public class Crs {
             protected String siid;
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© libelle.
+             * Obtient la valeur de la propriété libelle.
              * 
              * @return
              *     possible object is
@@ -540,7 +545,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© libelle.
+             * Définit la valeur de la propriété libelle.
              * 
              * @param value
              *     allowed object is
@@ -552,7 +557,7 @@ public class Crs {
             }
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© cri.
+             * Obtient la valeur de la propriété cri.
              * 
              * @return
              *     possible object is
@@ -564,7 +569,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© cri.
+             * Définit la valeur de la propriété cri.
              * 
              * @param value
              *     allowed object is
@@ -576,7 +581,7 @@ public class Crs {
             }
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© ville.
+             * Obtient la valeur de la propriété ville.
              * 
              * @return
              *     possible object is
@@ -588,7 +593,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© ville.
+             * Définit la valeur de la propriété ville.
              * 
              * @param value
              *     allowed object is
@@ -600,7 +605,7 @@ public class Crs {
             }
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© adresse.
+             * Obtient la valeur de la propriété adresse.
              * 
              * @return
              *     possible object is
@@ -612,7 +617,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© adresse.
+             * Définit la valeur de la propriété adresse.
              * 
              * @param value
              *     allowed object is
@@ -624,7 +629,7 @@ public class Crs {
             }
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© cp.
+             * Obtient la valeur de la propriété cp.
              * 
              * @return
              *     possible object is
@@ -636,7 +641,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© cp.
+             * Définit la valeur de la propriété cp.
              * 
              * @param value
              *     allowed object is
@@ -648,7 +653,7 @@ public class Crs {
             }
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© latitude.
+             * Obtient la valeur de la propriété latitude.
              * 
              */
             public float getLatitude() {
@@ -656,7 +661,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© latitude.
+             * Définit la valeur de la propriété latitude.
              * 
              */
             public void setLatitude(float value) {
@@ -664,7 +669,7 @@ public class Crs {
             }
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© longitude.
+             * Obtient la valeur de la propriété longitude.
              * 
              */
             public float getLongitude() {
@@ -672,7 +677,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© longitude.
+             * Définit la valeur de la propriété longitude.
              * 
              */
             public void setLongitude(float value) {
@@ -680,7 +685,7 @@ public class Crs {
             }
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© siid.
+             * Obtient la valeur de la propriété siid.
              * 
              * @return
              *     possible object is
@@ -692,7 +697,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© siid.
+             * Définit la valeur de la propriété siid.
              * 
              * @param value
              *     allowed object is
@@ -707,7 +712,7 @@ public class Crs {
             /**
              * <p>Classe Java pour anonymous complex type.
              * 
-             * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+             * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
              * 
              * <pre>
              * &lt;complexType&gt;
@@ -733,7 +738,7 @@ public class Crs {
                 protected String siid;
 
                 /**
-                 * Obtient la valeur de la propriÃ©tÃ© value.
+                 * Obtient la valeur de la propriété value.
                  * 
                  * @return
                  *     possible object is
@@ -745,7 +750,7 @@ public class Crs {
                 }
 
                 /**
-                 * DÃ©finit la valeur de la propriÃ©tÃ© value.
+                 * Définit la valeur de la propriété value.
                  * 
                  * @param value
                  *     allowed object is
@@ -757,7 +762,7 @@ public class Crs {
                 }
 
                 /**
-                 * Obtient la valeur de la propriÃ©tÃ© siid.
+                 * Obtient la valeur de la propriété siid.
                  * 
                  * @return
                  *     possible object is
@@ -769,7 +774,7 @@ public class Crs {
                 }
 
                 /**
-                 * DÃ©finit la valeur de la propriÃ©tÃ© siid.
+                 * Définit la valeur de la propriété siid.
                  * 
                  * @param value
                  *     allowed object is
@@ -788,7 +793,7 @@ public class Crs {
         /**
          * <p>Classe Java pour anonymous complex type.
          * 
-         * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+         * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
          * 
          * <pre>
          * &lt;complexType&gt;
@@ -829,7 +834,7 @@ public class Crs {
             protected String fonction;
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© personne.
+             * Obtient la valeur de la propriété personne.
              * 
              * @return
              *     possible object is
@@ -841,7 +846,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© personne.
+             * Définit la valeur de la propriété personne.
              * 
              * @param value
              *     allowed object is
@@ -853,7 +858,7 @@ public class Crs {
             }
 
             /**
-             * Obtient la valeur de la propriÃ©tÃ© fonction.
+             * Obtient la valeur de la propriété fonction.
              * 
              * @return
              *     possible object is
@@ -865,7 +870,7 @@ public class Crs {
             }
 
             /**
-             * DÃ©finit la valeur de la propriÃ©tÃ© fonction.
+             * Définit la valeur de la propriété fonction.
              * 
              * @param value
              *     allowed object is
@@ -880,7 +885,7 @@ public class Crs {
             /**
              * <p>Classe Java pour anonymous complex type.
              * 
-             * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+             * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
              * 
              * <pre>
              * &lt;complexType&gt;
@@ -913,7 +918,7 @@ public class Crs {
                 protected String gefid;
 
                 /**
-                 * Obtient la valeur de la propriÃ©tÃ© nom.
+                 * Obtient la valeur de la propriété nom.
                  * 
                  * @return
                  *     possible object is
@@ -925,7 +930,7 @@ public class Crs {
                 }
 
                 /**
-                 * DÃ©finit la valeur de la propriÃ©tÃ© nom.
+                 * Définit la valeur de la propriété nom.
                  * 
                  * @param value
                  *     allowed object is
@@ -937,7 +942,7 @@ public class Crs {
                 }
 
                 /**
-                 * Obtient la valeur de la propriÃ©tÃ© prenom.
+                 * Obtient la valeur de la propriété prenom.
                  * 
                  * @return
                  *     possible object is
@@ -949,7 +954,7 @@ public class Crs {
                 }
 
                 /**
-                 * DÃ©finit la valeur de la propriÃ©tÃ© prenom.
+                 * Définit la valeur de la propriété prenom.
                  * 
                  * @param value
                  *     allowed object is
@@ -961,7 +966,7 @@ public class Crs {
                 }
 
                 /**
-                 * Obtient la valeur de la propriÃ©tÃ© gefid.
+                 * Obtient la valeur de la propriété gefid.
                  * 
                  * @return
                  *     possible object is
@@ -973,7 +978,7 @@ public class Crs {
                 }
 
                 /**
-                 * DÃ©finit la valeur de la propriÃ©tÃ© gefid.
+                 * Définit la valeur de la propriété gefid.
                  * 
                  * @param value
                  *     allowed object is

@@ -6,7 +6,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.Path;
 
 
-
+/**
+* @author Chamir
+*/
 @Path("/personne")
 public class PersonneService{
 

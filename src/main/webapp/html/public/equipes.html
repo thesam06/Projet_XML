@@ -9,8 +9,8 @@
   <title>Raweb Inria - Équipes</title>
 
   <!-- CSS files -->
-  <link rel="stylesheet" href="../library/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../library/DataTables-1.10.16/css/dataTables.bootstrap4.min.css"/>
+  <link rel="stylesheet" href="../library/bootstrap-4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../library/bootstrap-table/src/bootstrap-table.css">
   <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
 
 </head>
@@ -53,13 +53,12 @@
     <div class="row">
       <div class="col-1"></div>
       <div class="col-10">
-        <table class="table table-responsive table-bordered table-hover table-sm order-column">
+        <table class="table table-responsive table-bordered table-hover table-sm order-column" data-toggle="table">
           <thead>
             <tr>
-              <th class="align-middle" scope="col">#</th>
-              <th class="text-center" scope="col">Centre de recherche</th>
-              <th class="text-center" scope="col">Nom du projet</th>
-              <th class="text-center" scope="col">Thème de recherche</th>
+              <th class="text-center" scope="col" data-sortable="true" data-field="research_center">Centre de recherche</th>
+              <th class="text-center" scope="col" data-sortable="true" data-field="project_name">Nom du projet</th>
+              <th class="text-center" scope="col" data-sortable="true" data-field="research_theme">Thème de recherche</th>
               <th class="text-center" scope="col">Responsable DCR</th>
               <th class="text-center" scope="col">Responsable DS</th>
               <th class="text-center" scope="col">Responsable DA</th>
@@ -70,7 +69,6 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
               <td></td>
               <td></td>
               <td></td>
@@ -82,7 +80,6 @@
               <td></td>
             </tr>
             <tr>
-              <th scope="row">2</th>
               <td></td>
               <td></td>
               <td></td>
@@ -105,7 +102,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script type="text/javascript" src="../library/jQuery-1.12.3/jquery-1.12.3.min.js"></script>
   <script type="text/javascript" src="../library/bootstrap-4.0.0/js/bootstrap.min.js"></script>
-  <script type="text/javascript" charset="utf8" src="../library/DataTables-1.10.16/js/DataTables/dataTables.bootstrap4.min.js"></script>
+  <script type="text/javascript" src="../library/bootstrap-table/src/bootstrap-table.js"></script>
+  <script type="text/javascript" src="../library/bootstrap-table/src/locale/bootstrap-table-fr-FR.js"></script>
 
   <script>
   function initMapTeams() {

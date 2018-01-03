@@ -1,8 +1,13 @@
 //
-// Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par l'implÃ©mentation de rÃ©fÃ©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+<<<<<<< HEAD
 // Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
 // GÃ©nÃ©rÃ© le : 2018.01.02 Ã  05:29:47 PM CET 
+=======
+// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+// Généré le : 2018.01.03 à 12:34:41 PM CET 
+>>>>>>> c0b9d0b754ce32b736d01570bdbe021aa6447a0e
 //
 
 
