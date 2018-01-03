@@ -75,6 +75,19 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                        <archive>
+                            <manifest>
+                                <addClasspath>true</addClasspath>
+                            </manifest>
+                        </archive>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
 
             
         </plugins>
@@ -145,6 +158,8 @@
           </configuration>
         </plugin>
     </plugins>
+
+
 
   </build>
 	<repositories>

@@ -1,8 +1,13 @@
 //
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+<<<<<<< HEAD:src/main/java/org/inria/fr/ns/sr/Resume.java
+// Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
+// GÃ©nÃ©rÃ© le : 2018.01.02 Ã  05:29:46 PM CET 
+=======
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
 // Généré le : 2018.01.03 à 12:34:40 PM CET 
+>>>>>>> c0b9d0b754ce32b736d01570bdbe021aa6447a0e:src/main/java/bastri/org/inria/fr/ns/sr/Resume.java
 //
 
 
@@ -16,17 +21,15 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour domaine complex type.
+ * <p>Classe Java pour resume complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="domaine"&gt;
+ * &lt;complexType name="resume"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
  *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="classification" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="siid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *     &lt;/extension&gt;
  *   &lt;/simpleContent&gt;
  * &lt;/complexType&gt;
@@ -35,19 +38,15 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "domaine", propOrder = {
+@XmlType(name = "resume", propOrder = {
     "value"
 })
-public class Domaine {
+public class Resume {
 
     @XmlValue
     protected String value;
     @XmlAttribute(name = "lang")
     protected String lang;
-    @XmlAttribute(name = "classification")
-    protected String classification;
-    @XmlAttribute(name = "siid")
-    protected String siid;
 
     /**
      * Obtient la valeur de la propriété value.
@@ -95,54 +94,6 @@ public class Domaine {
      */
     public void setLang(String value) {
         this.lang = value;
-    }
-
-    /**
-     * Obtient la valeur de la propriété classification.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClassification() {
-        return classification;
-    }
-
-    /**
-     * Définit la valeur de la propriété classification.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClassification(String value) {
-        this.classification = value;
-    }
-
-    /**
-     * Obtient la valeur de la propriété siid.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSiid() {
-        return siid;
-    }
-
-    /**
-     * Définit la valeur de la propriété siid.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSiid(String value) {
-        this.siid = value;
     }
 
 }
