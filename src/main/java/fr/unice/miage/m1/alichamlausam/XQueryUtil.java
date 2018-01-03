@@ -18,7 +18,9 @@ import java.io.*;
 import java.net.*;
 import javax.xml.bind.DatatypeConverter;
 
-/** Cette classe contient des methodes pour la connexion a exist-db */
+/** Cette classe contient des methodes pour la connexion a exist-db
+* @author Chamir
+*/
 public class XQueryUtil {
 
 	public static final String OUTPUT_FILE = "groupe.xqy";

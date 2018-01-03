@@ -1,8 +1,8 @@
 //
-// Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par l'implÃ©mentation de rÃ©fÃ©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
-// GÃ©nÃ©rÃ© le : 2018.01.01 Ã  10:57:05 PM CET 
+// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+// Généré le : 2018.01.03 à 12:34:40 PM CET 
 //
 
 
@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlValue;
 /**
  * <p>Classe Java pour domaine complex type.
  * 
- * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="domaine"&gt;
@@ -50,7 +50,7 @@ public class Domaine {
     protected String siid;
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© value.
+     * Obtient la valeur de la propriété value.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class Domaine {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© value.
+     * Définit la valeur de la propriété value.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class Domaine {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© lang.
+     * Obtient la valeur de la propriété lang.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class Domaine {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© lang.
+     * Définit la valeur de la propriété lang.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class Domaine {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© classification.
+     * Obtient la valeur de la propriété classification.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class Domaine {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© classification.
+     * Définit la valeur de la propriété classification.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class Domaine {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© siid.
+     * Obtient la valeur de la propriété siid.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class Domaine {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© siid.
+     * Définit la valeur de la propriété siid.
      * 
      * @param value
      *     allowed object is

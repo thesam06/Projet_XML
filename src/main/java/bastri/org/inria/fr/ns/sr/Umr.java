@@ -1,8 +1,8 @@
 //
-// Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par l'implÃ©mentation de rÃ©fÃ©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
-// GÃ©nÃ©rÃ© le : 2018.01.01 Ã  10:57:05 PM CET 
+// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+// Généré le : 2018.01.03 à 12:34:40 PM CET 
 //
 
 
@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour umr complex type.
  * 
- * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="umr"&gt;
@@ -52,7 +52,7 @@ public class Umr {
     protected List<Composition> composition;
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© numero.
+     * Obtient la valeur de la propriété numero.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class Umr {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© numero.
+     * Définit la valeur de la propriété numero.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class Umr {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© directeur.
+     * Obtient la valeur de la propriété directeur.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class Umr {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© directeur.
+     * Définit la valeur de la propriété directeur.
      * 
      * @param value
      *     allowed object is

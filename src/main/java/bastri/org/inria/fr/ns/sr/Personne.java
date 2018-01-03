@@ -1,8 +1,8 @@
 //
-// Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par l'implÃ©mentation de rÃ©fÃ©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Toute modification apportÃ©e Ã  ce fichier sera perdue lors de la recompilation du schÃ©ma source. 
-// GÃ©nÃ©rÃ© le : 2018.01.01 Ã  10:57:05 PM CET 
+// Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+// Généré le : 2018.01.03 à 12:34:40 PM CET 
 //
 
 
@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour personne complex type.
  * 
- * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="personne"&gt;
@@ -59,7 +59,7 @@ public class Personne {
     protected String gefid;
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© nom.
+     * Obtient la valeur de la propriété nom.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class Personne {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© nom.
+     * Définit la valeur de la propriété nom.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class Personne {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© prenom.
+     * Obtient la valeur de la propriété prenom.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class Personne {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© prenom.
+     * Définit la valeur de la propriété prenom.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class Personne {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© genre.
+     * Obtient la valeur de la propriété genre.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class Personne {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© genre.
+     * Définit la valeur de la propriété genre.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class Personne {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© dateNaissance.
+     * Obtient la valeur de la propriété dateNaissance.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class Personne {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© dateNaissance.
+     * Définit la valeur de la propriété dateNaissance.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class Personne {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© corps.
+     * Obtient la valeur de la propriété corps.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class Personne {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© corps.
+     * Définit la valeur de la propriété corps.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class Personne {
     }
 
     /**
-     * Obtient la valeur de la propriÃ©tÃ© gefid.
+     * Obtient la valeur de la propriété gefid.
      * 
      * @return
      *     possible object is
@@ -191,7 +191,7 @@ public class Personne {
     }
 
     /**
-     * DÃ©finit la valeur de la propriÃ©tÃ© gefid.
+     * Définit la valeur de la propriété gefid.
      * 
      * @param value
      *     allowed object is

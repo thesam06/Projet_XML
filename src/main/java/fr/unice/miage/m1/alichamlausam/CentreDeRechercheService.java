@@ -4,6 +4,9 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Produces;
 import javax.ws.rs.Path;
 
+/**
+* @author Chamir
+*/
 @Path("/centrederecherche") //path de la classe 
 public class CentreDeRechercheService {
 

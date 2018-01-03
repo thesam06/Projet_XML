@@ -32,6 +32,7 @@
        <groupId>javax.ws.rs</groupId>
        <artifactId>javax.ws.rs-api</artifactId>
        <version>2.1</version>
+       <scope>provided</scope>
    </dependency>
    <!-- https://mvnrepository.com/artifact/org.xmldb/xmldb-api -->
    <!-- https://mvnrepository.com/artifact/xmldb/xmldb-api -->
@@ -134,6 +135,15 @@
     	    <mainClass>fr.unice.miage.m1.alichamlausam.XQueryUtil</mainClass>
     	  </configuration>
     	</plugin> 
+
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>2.6</version>
+          <configuration>
+            <failOnMissingWebXml>false</failOnMissingWebXml>
+          </configuration>
+        </plugin>
     </plugins>
 
   </build>
