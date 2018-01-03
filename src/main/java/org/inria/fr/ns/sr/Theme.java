@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2018.01.02 à 05:17:41 PM CET 
+// Généré le : 2018.01.02 à 05:29:46 PM CET 
 //
 
 
@@ -16,16 +16,16 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour domaine complex type.
+ * <p>Classe Java pour theme complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="domaine"&gt;
+ * &lt;complexType name="theme"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
  *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="classification" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="refid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *       &lt;attribute name="siid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *     &lt;/extension&gt;
  *   &lt;/simpleContent&gt;
@@ -35,17 +35,17 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "domaine", propOrder = {
+@XmlType(name = "theme", propOrder = {
     "value"
 })
-public class Domaine {
+public class Theme {
 
     @XmlValue
     protected String value;
     @XmlAttribute(name = "lang")
     protected String lang;
-    @XmlAttribute(name = "classification")
-    protected String classification;
+    @XmlAttribute(name = "refid")
+    protected String refid;
     @XmlAttribute(name = "siid")
     protected String siid;
 
@@ -98,27 +98,27 @@ public class Domaine {
     }
 
     /**
-     * Obtient la valeur de la propriété classification.
+     * Obtient la valeur de la propriété refid.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getClassification() {
-        return classification;
+    public String getRefid() {
+        return refid;
     }
 
     /**
-     * Définit la valeur de la propriété classification.
+     * Définit la valeur de la propriété refid.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setClassification(String value) {
-        this.classification = value;
+    public void setRefid(String value) {
+        this.refid = value;
     }
 
     /**

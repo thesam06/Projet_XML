@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2018.01.02 à 05:17:41 PM CET 
+// Généré le : 2018.01.02 à 05:29:46 PM CET 
 //
 
 
@@ -16,17 +16,17 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour theme complex type.
+ * <p>Classe Java pour composition complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="theme"&gt;
+ * &lt;complexType name="composition"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
- *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *       &lt;attribute name="refid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="siid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="url" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="version" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *     &lt;/extension&gt;
  *   &lt;/simpleContent&gt;
  * &lt;/complexType&gt;
@@ -35,19 +35,19 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "theme", propOrder = {
+@XmlType(name = "composition", propOrder = {
     "value"
 })
-public class Theme {
+public class Composition {
 
     @XmlValue
     protected String value;
-    @XmlAttribute(name = "lang")
-    protected String lang;
     @XmlAttribute(name = "refid")
     protected String refid;
-    @XmlAttribute(name = "siid")
-    protected String siid;
+    @XmlAttribute(name = "url")
+    protected String url;
+    @XmlAttribute(name = "version")
+    protected String version;
 
     /**
      * Obtient la valeur de la propriété value.
@@ -71,30 +71,6 @@ public class Theme {
      */
     public void setValue(String value) {
         this.value = value;
-    }
-
-    /**
-     * Obtient la valeur de la propriété lang.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLang() {
-        return lang;
-    }
-
-    /**
-     * Définit la valeur de la propriété lang.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLang(String value) {
-        this.lang = value;
     }
 
     /**
@@ -122,27 +98,51 @@ public class Theme {
     }
 
     /**
-     * Obtient la valeur de la propriété siid.
+     * Obtient la valeur de la propriété url.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getSiid() {
-        return siid;
+    public String getUrl() {
+        return url;
     }
 
     /**
-     * Définit la valeur de la propriété siid.
+     * Définit la valeur de la propriété url.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setSiid(String value) {
-        this.siid = value;
+    public void setUrl(String value) {
+        this.url = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété version.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getVersion() {
+        return version;
+    }
+
+    /**
+     * Définit la valeur de la propriété version.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setVersion(String value) {
+        this.version = value;
     }
 
 }

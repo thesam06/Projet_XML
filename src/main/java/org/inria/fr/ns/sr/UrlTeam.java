@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2018.01.02 à 05:17:41 PM CET 
+// Généré le : 2018.01.02 à 05:29:46 PM CET 
 //
 
 
@@ -16,15 +16,15 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour corps complex type.
+ * <p>Classe Java pour urlTeam complex type.
  * 
  * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="corps"&gt;
+ * &lt;complexType name="urlTeam"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
- *       &lt;attribute name="abbr" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *     &lt;/extension&gt;
  *   &lt;/simpleContent&gt;
  * &lt;/complexType&gt;
@@ -33,15 +33,15 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "corps", propOrder = {
+@XmlType(name = "urlTeam", propOrder = {
     "value"
 })
-public class Corps {
+public class UrlTeam {
 
     @XmlValue
     protected String value;
-    @XmlAttribute(name = "abbr")
-    protected String abbr;
+    @XmlAttribute(name = "lang")
+    protected String lang;
 
     /**
      * Obtient la valeur de la propriété value.
@@ -68,27 +68,27 @@ public class Corps {
     }
 
     /**
-     * Obtient la valeur de la propriété abbr.
+     * Obtient la valeur de la propriété lang.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getAbbr() {
-        return abbr;
+    public String getLang() {
+        return lang;
     }
 
     /**
-     * Définit la valeur de la propriété abbr.
+     * Définit la valeur de la propriété lang.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setAbbr(String value) {
-        this.abbr = value;
+    public void setLang(String value) {
+        this.lang = value;
     }
 
 }
