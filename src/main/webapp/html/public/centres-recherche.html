@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../library/bootstrap-4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../library/bootstrap-table/src/bootstrap-table.css">
   <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../library/webix/webix.css">
 
 </head>
 <body>
@@ -87,6 +88,8 @@
           </tbody>
         </table>
       </div>
+
+      
       <div class="col-lg-6">
         <div id="researchCentersMap" style="width:auto;min-height:560px;"></div>
       </div>
@@ -100,6 +103,8 @@
   <script type="text/javascript" src="../library/bootstrap-4.0.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../library/bootstrap-table/src/bootstrap-table.js"></script>
   <script type="text/javascript" src="../library/bootstrap-table/src/locale/bootstrap-table-fr-FR.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
+  <script src="../library/webix/webix.js"></script>
 
   <script>
   function initMapCenters() {
@@ -139,24 +144,34 @@
       var crList = xml.querySelectorAll("crs cr");
       console.log(crList);
       var crTable = document.querySelector("#crTable tbody");
+      var crDonnees = [];
       for (var i = 0; i < crList.length; i++ ) {
-        crTable.innerHTML+='<tr><td scope = "row">'+crList[i].getAttribute('siid')+'</td>'
+        /*crTable.innerHTML+='<tr><td scope = "row">'+crList[i].getAttribute('siid')+'</td>'
         +'<td>'+crList[i].querySelector('libelle').innerHTML+'</td>'
         +'<td>'+crList[i].querySelector('ville').innerHTML+'</td>'
         +'<td>'+crList[i].querySelector('date_ouverture').innerHTML+'</td>'
         +'<td>'+crList[i].querySelector('date_fermeture').innerHTML+'</td>'
         + '<td></td><td></td>'
-        + '</tr>'  ;
+        + '</tr>'  ;*/
+        crDonnees.push([crList[i].getAttribute('siid'),crList[i].querySelector('libelle').innerHTML,crList[i].querySelector('ville').innerHTML,crList[i].querySelector('date_ouverture').innerHTML,crList[i].querySelector('date_fermeture').innerHTML,'','']);
       }
+
+      $('#crTable').dataTable({data: crDonnees});
+      // var dtable = new webix.ui({container: 'crFakeTable',view: 'datatable',data: crList});
       //Variable qui recupere l'ID crTable
       // var firstCol = document.querySelectorAll("#crTable tr th:first-child");
     });
   }
 
   //Au chargement de la page ce code est l'équivalent de javaScriot
-  window.addEventListener("load", function(event){
+  /*window.addEventListener("load", function(event){
+    remplirTableCentreDeRecherche();
+  });*/
+
+  $(document).ready(function() {
     remplirTableCentreDeRecherche();
   });
+
 
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWVVmEYiKBHdXFOYh_6iDMWoHQ02lHGpw&callback=initMapCenters"></script>

@@ -12,14 +12,5 @@ import java.util.*;
 @ApplicationPath("/rest")
 public class MyApplication extends Application {
 
-	@Override
-	public Set<Class<?>> getClasses() {
-		Class[] classes = { CentreDeRechercheService.class, PersonneService.class};
-		Set<Class<?>> res = new HashSet<Class<?>>();
-		for(Class c : classes) {
-			res.add(c);
-		}
-		return res;
-	}
 
 }
