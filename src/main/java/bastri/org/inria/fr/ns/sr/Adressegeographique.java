@@ -1,13 +1,8 @@
 //
-// Ce fichier a ÈtÈ gÈnÈrÈ par l'implÈmentation de rÈfÈrence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a √©t√© g√©n√©r√© par l'impl√©mentation de r√©f√©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-<<<<<<< HEAD:src/main/java/org/inria/fr/ns/sr/Adressegeographique.java
 // Toute modification apport√©e √† ce fichier sera perdue lors de la recompilation du sch√©ma source. 
-// G√©n√©r√© le : 2018.01.02 √† 05:29:46 PM CET 
-=======
-// Toute modification apportÈe ‡ ce fichier sera perdue lors de la recompilation du schÈma source. 
-// GÈnÈrÈ le : 2018.01.03 ‡ 12:34:40 PM CET 
->>>>>>> c0b9d0b754ce32b736d01570bdbe021aa6447a0e:src/main/java/bastri/org/inria/fr/ns/sr/Adressegeographique.java
+// G√©n√©r√© le : 2018.01.03 √† 06:08:58 PM CET 
 //
 
 
@@ -22,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour adressegeographique complex type.
  * 
- * <p>Le fragment de schÈma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de sch√©ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="adressegeographique"&gt;
@@ -77,7 +72,7 @@ public class Adressegeographique {
     protected String version;
 
     /**
-     * Obtient la valeur de la propriÈtÈ libelle.
+     * Obtient la valeur de la propri√©t√© libelle.
      * 
      * @return
      *     possible object is
@@ -89,7 +84,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ libelle.
+     * D√©finit la valeur de la propri√©t√© libelle.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +96,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ cri.
+     * Obtient la valeur de la propri√©t√© cri.
      * 
      * @return
      *     possible object is
@@ -113,7 +108,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ cri.
+     * D√©finit la valeur de la propri√©t√© cri.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +120,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ ville.
+     * Obtient la valeur de la propri√©t√© ville.
      * 
      * @return
      *     possible object is
@@ -137,7 +132,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ ville.
+     * D√©finit la valeur de la propri√©t√© ville.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +144,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ adresse.
+     * Obtient la valeur de la propri√©t√© adresse.
      * 
      * @return
      *     possible object is
@@ -161,7 +156,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ adresse.
+     * D√©finit la valeur de la propri√©t√© adresse.
      * 
      * @param value
      *     allowed object is
@@ -173,7 +168,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ cp.
+     * Obtient la valeur de la propri√©t√© cp.
      * 
      * @return
      *     possible object is
@@ -185,7 +180,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ cp.
+     * D√©finit la valeur de la propri√©t√© cp.
      * 
      * @param value
      *     allowed object is
@@ -197,7 +192,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ latitude.
+     * Obtient la valeur de la propri√©t√© latitude.
      * 
      * @return
      *     possible object is
@@ -209,7 +204,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ latitude.
+     * D√©finit la valeur de la propri√©t√© latitude.
      * 
      * @param value
      *     allowed object is
@@ -221,7 +216,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ longitude.
+     * Obtient la valeur de la propri√©t√© longitude.
      * 
      * @return
      *     possible object is
@@ -233,7 +228,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ longitude.
+     * D√©finit la valeur de la propri√©t√© longitude.
      * 
      * @param value
      *     allowed object is
@@ -245,7 +240,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ siid.
+     * Obtient la valeur de la propri√©t√© siid.
      * 
      * @return
      *     possible object is
@@ -257,7 +252,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ siid.
+     * D√©finit la valeur de la propri√©t√© siid.
      * 
      * @param value
      *     allowed object is
@@ -269,7 +264,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ refid.
+     * Obtient la valeur de la propri√©t√© refid.
      * 
      * @return
      *     possible object is
@@ -281,7 +276,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ refid.
+     * D√©finit la valeur de la propri√©t√© refid.
      * 
      * @param value
      *     allowed object is
@@ -293,7 +288,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ url.
+     * Obtient la valeur de la propri√©t√© url.
      * 
      * @return
      *     possible object is
@@ -305,7 +300,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ url.
+     * D√©finit la valeur de la propri√©t√© url.
      * 
      * @param value
      *     allowed object is
@@ -317,7 +312,7 @@ public class Adressegeographique {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ version.
+     * Obtient la valeur de la propri√©t√© version.
      * 
      * @return
      *     possible object is
@@ -329,7 +324,7 @@ public class Adressegeographique {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ version.
+     * D√©finit la valeur de la propri√©t√© version.
      * 
      * @param value
      *     allowed object is

@@ -1,13 +1,8 @@
 //
-// Ce fichier a ÈtÈ gÈnÈrÈ par l'implÈmentation de rÈfÈrence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a √©t√© g√©n√©r√© par l'impl√©mentation de r√©f√©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-<<<<<<< HEAD:src/main/java/org/inria/fr/ns/sr/Composition.java
 // Toute modification apport√©e √† ce fichier sera perdue lors de la recompilation du sch√©ma source. 
-// G√©n√©r√© le : 2018.01.02 √† 05:29:46 PM CET 
-=======
-// Toute modification apportÈe ‡ ce fichier sera perdue lors de la recompilation du schÈma source. 
-// GÈnÈrÈ le : 2018.01.03 ‡ 12:34:40 PM CET 
->>>>>>> c0b9d0b754ce32b736d01570bdbe021aa6447a0e:src/main/java/bastri/org/inria/fr/ns/sr/Composition.java
+// G√©n√©r√© le : 2018.01.03 √† 06:08:58 PM CET 
 //
 
 
@@ -21,17 +16,17 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour composition complex type.
+ * <p>Classe Java pour theme complex type.
  * 
- * <p>Le fragment de schÈma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de sch√©ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="composition"&gt;
+ * &lt;complexType name="theme"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
+ *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *       &lt;attribute name="refid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="url" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="version" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+ *       &lt;attribute name="siid" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
  *     &lt;/extension&gt;
  *   &lt;/simpleContent&gt;
  * &lt;/complexType&gt;
@@ -40,22 +35,22 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "composition", propOrder = {
+@XmlType(name = "theme", propOrder = {
     "value"
 })
-public class Composition {
+public class Theme {
 
     @XmlValue
     protected String value;
+    @XmlAttribute(name = "lang")
+    protected String lang;
     @XmlAttribute(name = "refid")
     protected String refid;
-    @XmlAttribute(name = "url")
-    protected String url;
-    @XmlAttribute(name = "version")
-    protected String version;
+    @XmlAttribute(name = "siid")
+    protected String siid;
 
     /**
-     * Obtient la valeur de la propriÈtÈ value.
+     * Obtient la valeur de la propri√©t√© value.
      * 
      * @return
      *     possible object is
@@ -67,7 +62,7 @@ public class Composition {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ value.
+     * D√©finit la valeur de la propri√©t√© value.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +74,31 @@ public class Composition {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ refid.
+     * Obtient la valeur de la propri√©t√© lang.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getLang() {
+        return lang;
+    }
+
+    /**
+     * D√©finit la valeur de la propri√©t√© lang.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setLang(String value) {
+        this.lang = value;
+    }
+
+    /**
+     * Obtient la valeur de la propri√©t√© refid.
      * 
      * @return
      *     possible object is
@@ -91,7 +110,7 @@ public class Composition {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ refid.
+     * D√©finit la valeur de la propri√©t√© refid.
      * 
      * @param value
      *     allowed object is
@@ -103,51 +122,27 @@ public class Composition {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ url.
+     * Obtient la valeur de la propri√©t√© siid.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getUrl() {
-        return url;
+    public String getSiid() {
+        return siid;
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ url.
+     * D√©finit la valeur de la propri√©t√© siid.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setUrl(String value) {
-        this.url = value;
-    }
-
-    /**
-     * Obtient la valeur de la propriÈtÈ version.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVersion() {
-        return version;
-    }
-
-    /**
-     * DÈfinit la valeur de la propriÈtÈ version.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVersion(String value) {
-        this.version = value;
+    public void setSiid(String value) {
+        this.siid = value;
     }
 
 }

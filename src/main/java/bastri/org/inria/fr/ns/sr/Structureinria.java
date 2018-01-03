@@ -1,13 +1,8 @@
 //
-// Ce fichier a ÈtÈ gÈnÈrÈ par l'implÈmentation de rÈfÈrence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a √©t√© g√©n√©r√© par l'impl√©mentation de r√©f√©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-<<<<<<< HEAD:src/main/java/org/inria/fr/ns/sr/Structureinria.java
 // Toute modification apport√©e √† ce fichier sera perdue lors de la recompilation du sch√©ma source. 
-// G√©n√©r√© le : 2018.01.02 √† 05:29:46 PM CET 
-=======
-// Toute modification apportÈe ‡ ce fichier sera perdue lors de la recompilation du schÈma source. 
-// GÈnÈrÈ le : 2018.01.03 ‡ 12:34:40 PM CET 
->>>>>>> c0b9d0b754ce32b736d01570bdbe021aa6447a0e:src/main/java/bastri/org/inria/fr/ns/sr/Structureinria.java
+// G√©n√©r√© le : 2018.01.03 √† 06:08:58 PM CET 
 //
 
 
@@ -28,7 +23,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 /**
  * <p>Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schÈma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de sch√©ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -116,7 +111,7 @@ public class Structureinria {
     protected String numnatstruct;
 
     /**
-     * Obtient la valeur de la propriÈtÈ siidEquipeGroupe.
+     * Obtient la valeur de la propri√©t√© siidEquipeGroupe.
      * 
      * @return
      *     possible object is
@@ -128,7 +123,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ siidEquipeGroupe.
+     * D√©finit la valeur de la propri√©t√© siidEquipeGroupe.
      * 
      * @param value
      *     allowed object is
@@ -198,7 +193,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ sigle.
+     * Obtient la valeur de la propri√©t√© sigle.
      * 
      * @return
      *     possible object is
@@ -210,7 +205,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ sigle.
+     * D√©finit la valeur de la propri√©t√© sigle.
      * 
      * @param value
      *     allowed object is
@@ -222,7 +217,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ sigleHtml.
+     * Obtient la valeur de la propri√©t√© sigleHtml.
      * 
      * @return
      *     possible object is
@@ -234,7 +229,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ sigleHtml.
+     * D√©finit la valeur de la propri√©t√© sigleHtml.
      * 
      * @param value
      *     allowed object is
@@ -246,7 +241,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ sigleLatex.
+     * Obtient la valeur de la propri√©t√© sigleLatex.
      * 
      * @return
      *     possible object is
@@ -258,7 +253,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ sigleLatex.
+     * D√©finit la valeur de la propri√©t√© sigleLatex.
      * 
      * @param value
      *     allowed object is
@@ -270,7 +265,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ typestructure.
+     * Obtient la valeur de la propri√©t√© typestructure.
      * 
      * @return
      *     possible object is
@@ -282,7 +277,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ typestructure.
+     * D√©finit la valeur de la propri√©t√© typestructure.
      * 
      * @param value
      *     allowed object is
@@ -294,7 +289,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ libellefr.
+     * Obtient la valeur de la propri√©t√© libellefr.
      * 
      * @return
      *     possible object is
@@ -306,7 +301,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ libellefr.
+     * D√©finit la valeur de la propri√©t√© libellefr.
      * 
      * @param value
      *     allowed object is
@@ -318,7 +313,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ libelleen.
+     * Obtient la valeur de la propri√©t√© libelleen.
      * 
      * @return
      *     possible object is
@@ -330,7 +325,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ libelleen.
+     * D√©finit la valeur de la propri√©t√© libelleen.
      * 
      * @param value
      *     allowed object is
@@ -400,7 +395,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ dateCreation.
+     * Obtient la valeur de la propri√©t√© dateCreation.
      * 
      * @return
      *     possible object is
@@ -412,7 +407,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ dateCreation.
+     * D√©finit la valeur de la propri√©t√© dateCreation.
      * 
      * @param value
      *     allowed object is
@@ -424,7 +419,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ dateFermeture.
+     * Obtient la valeur de la propri√©t√© dateFermeture.
      * 
      * @return
      *     possible object is
@@ -436,7 +431,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ dateFermeture.
+     * D√©finit la valeur de la propri√©t√© dateFermeture.
      * 
      * @param value
      *     allowed object is
@@ -477,7 +472,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ idhal.
+     * Obtient la valeur de la propri√©t√© idhal.
      * 
      * @return
      *     possible object is
@@ -489,7 +484,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ idhal.
+     * D√©finit la valeur de la propri√©t√© idhal.
      * 
      * @param value
      *     allowed object is
@@ -530,7 +525,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ siid.
+     * Obtient la valeur de la propri√©t√© siid.
      * 
      * @return
      *     possible object is
@@ -542,7 +537,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ siid.
+     * D√©finit la valeur de la propri√©t√© siid.
      * 
      * @param value
      *     allowed object is
@@ -554,7 +549,7 @@ public class Structureinria {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ numnatstruct.
+     * Obtient la valeur de la propri√©t√© numnatstruct.
      * 
      * @return
      *     possible object is
@@ -566,7 +561,7 @@ public class Structureinria {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ numnatstruct.
+     * D√©finit la valeur de la propri√©t√© numnatstruct.
      * 
      * @param value
      *     allowed object is

@@ -1,13 +1,8 @@
 //
-// Ce fichier a ÈtÈ gÈnÈrÈ par l'implÈmentation de rÈfÈrence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+// Ce fichier a √©t√© g√©n√©r√© par l'impl√©mentation de r√©f√©rence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-<<<<<<< HEAD:src/main/java/org/inria/fr/ns/sr/UrlTeam.java
 // Toute modification apport√©e √† ce fichier sera perdue lors de la recompilation du sch√©ma source. 
-// G√©n√©r√© le : 2018.01.02 √† 05:29:46 PM CET 
-=======
-// Toute modification apportÈe ‡ ce fichier sera perdue lors de la recompilation du schÈma source. 
-// GÈnÈrÈ le : 2018.01.03 ‡ 12:34:40 PM CET 
->>>>>>> c0b9d0b754ce32b736d01570bdbe021aa6447a0e:src/main/java/bastri/org/inria/fr/ns/sr/UrlTeam.java
+// G√©n√©r√© le : 2018.01.03 √† 06:08:58 PM CET 
 //
 
 
@@ -21,12 +16,12 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Classe Java pour urlTeam complex type.
+ * <p>Classe Java pour resume complex type.
  * 
- * <p>Le fragment de schÈma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de sch√©ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="urlTeam"&gt;
+ * &lt;complexType name="resume"&gt;
  *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
  *       &lt;attribute name="lang" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
@@ -38,10 +33,10 @@ import javax.xml.bind.annotation.XmlValue;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "urlTeam", propOrder = {
+@XmlType(name = "resume", propOrder = {
     "value"
 })
-public class UrlTeam {
+public class Resume {
 
     @XmlValue
     protected String value;
@@ -49,7 +44,7 @@ public class UrlTeam {
     protected String lang;
 
     /**
-     * Obtient la valeur de la propriÈtÈ value.
+     * Obtient la valeur de la propri√©t√© value.
      * 
      * @return
      *     possible object is
@@ -61,7 +56,7 @@ public class UrlTeam {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ value.
+     * D√©finit la valeur de la propri√©t√© value.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +68,7 @@ public class UrlTeam {
     }
 
     /**
-     * Obtient la valeur de la propriÈtÈ lang.
+     * Obtient la valeur de la propri√©t√© lang.
      * 
      * @return
      *     possible object is
@@ -85,7 +80,7 @@ public class UrlTeam {
     }
 
     /**
-     * DÈfinit la valeur de la propriÈtÈ lang.
+     * D√©finit la valeur de la propri√©t√© lang.
      * 
      * @param value
      *     allowed object is
