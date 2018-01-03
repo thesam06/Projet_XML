@@ -9,8 +9,8 @@
   <title>Raweb Inria - Centres</title>
 
   <!-- CSS files -->
-  <link rel="stylesheet" href="../library/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/>
+  <link rel="stylesheet" href="../library/bootstrap-4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../library/bootstrap-table/src/bootstrap-table.css">
   <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
 
 </head>
@@ -44,12 +44,12 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-6">
-        <table id="crTable" class="table table-responsive table-bordered table-hover table-sm">
+        <table id="crTable" class="table table-responsive table-bordered table-hover table-sm" data-toggle="table">
           <thead>
             <tr>
               <th class="align-middle" scope="col">#Id</th>
-              <th class="text-center align-middle" scope="col">Nom</th>
-              <th class="text-center align-middle" scope="col">Ville</th>
+              <th class="text-center align-middle" scope="col" data-sortable="true" data-field="name">Nom</th>
+              <th class="text-center align-middle" scope="col" data-sortable="true" data-field="city">Ville</th>
               <th class="text-center" scope="col">Date d'ouverture</th>
               <th class="text-center" scope="col">Date de fermeture</th>
               <th class="text-center" scope="col">Nombre d'équipes</th>
@@ -60,6 +60,7 @@
             <!-- <tr>
               J'ai commenté ça parce qu'il y a pas que deux lignes j'ai crée une boucle en bas qui creer autant de lignes que de centre de recherche
               <th scope="row">1</th>
+
               <td></td>
               <td></td>
               <td></td>
@@ -68,7 +69,14 @@
               <td></td>
             </tr>
             <tr>
-              <th scope="row">2</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
               <td></td>
               <td></td>
               <td></td>
@@ -90,7 +98,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script type="text/javascript" src="../library/jQuery-1.12.3/jquery-1.12.3.min.js"></script>
   <script type="text/javascript" src="../library/bootstrap-4.0.0/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="DataTables/datatables.min.js"></script>
+  <script type="text/javascript" src="../library/bootstrap-table/src/bootstrap-table.js"></script>
+  <script type="text/javascript" src="../library/bootstrap-table/src/locale/bootstrap-table-fr-FR.js"></script>
 
   <script>
   function initMapCenters() {

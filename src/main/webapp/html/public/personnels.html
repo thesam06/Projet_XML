@@ -9,8 +9,8 @@
   <title>Raweb Inria - Personnels</title>
 
   <!-- CSS files -->
-  <link rel="stylesheet" href="../library/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/>
+  <link rel="stylesheet" href="../library/bootstrap-4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../library/bootstrap-table/dist/bootstrap-table.min.css">
   <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
 
 </head>
@@ -43,24 +43,21 @@
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
-        <table class="table table-responsive table-bordered table-hover table-sm order-column">
+      <div class="col-12">
+        <table class="table table-responsive table-bordered table-hover table-sm order-column" data-toggle="table">
           <thead>
             <tr>
-              <th class="align-middle" scope="col">#</th>
-              <th class="text-center" scope="col">Centre de recherche</th>
-              <th class="text-center" scope="col">Nom du projet</th>
-              <th class="text-center" scope="col">Thème de recherche</th>
-              <th class="text-center" scope="col">Nom du membre de l'équipe</th>
+              <th class="text-center" scope="col" data-sortable="true" data-field="project_name">Nom du projet</th>
+              <th class="text-center" scope="col" data-sortable="true" data-field="research_theme">Thème de recherche</th>
+              <th class="text-center" scope="col" data-sortable="true" data-field="member_name">Nom du membre de l'équipe</th>
               <th class="text-center" scope="col">Prénom du membre de l'équipe</th>
-              <th class="text-center" scope="col">Catégorie professionnelle</th>
-              <th class="text-center" scope="col">Nombre de personnes</th>
+              <th class="text-center" scope="col" data-sortable="true" data-field="category">Catégorie professionnelle</th>
+              <th class="text-center" scope="col">Rapports auxquels il a participé</th>
+              <th class="text-center" scope="col">Nombre de ses publications</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
               <td></td>
               <td></td>
               <td></td>
@@ -70,7 +67,15 @@
               <td></td>
             </tr>
             <tr>
-              <th scope="row">2</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
               <td></td>
               <td></td>
               <td></td>
@@ -82,7 +87,6 @@
           </tbody>
         </table>
       </div>
-      <div class="col-1"></div>
     </div>
   </div>
 
@@ -91,6 +95,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script type="text/javascript" src="../library/jQuery-1.12.3/jquery-1.12.3.min.js"></script>
   <script type="text/javascript" src="../library/bootstrap-4.0.0/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="DataTables/datatables.min.js"></script>
+  <script type="text/javascript" src="../library/bootstrap-table/dist/bootstrap-table.min.js"></script>
+  <script type="text/javascript" src="../library/bootstrap-table/dist/locale/bootstrap-table-fr-FR.min.js"></script>
 </body>
 </html>
