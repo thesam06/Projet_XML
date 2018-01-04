@@ -99,7 +99,33 @@ public class XQueryUtil {
 
 	}
 
+	public static void mainz(String[] args) {
+		// ProcessBuilder pb = new ProcessBuilder("asadmin","deploy","--force","target/inriaproj.");
+		// Process p = pb.start();
+	}
+
+
 	public static void main(String[] args) {
 		uploadFile("requetes.xqy");
+		Runtime rt = Runtime.getRuntime();
+		System.out.println(System.getenv("PATH"));
+		try {
+			Process p = rt.exec(new String[]{"cmd","/c","asadmin","deploy","--force","target\\inriaprojxml.war"});
+			BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
+			int n=5;
+	         for (String s = br.readLine(); s != null && n >=0; s = br.readLine()) {
+	         	if(s == null ) --n;
+	            System.out.println("line: " + s);
+
+	         }
+	         br.close();
+	         p.waitFor();
+	         //PrintWriter pw = new PrintWriter(p.getOutputStream());
+
+	         System.out.println("command executed exited: " + p.exitValue());
+	         p.destroy();
+		} catch(IOException | InterruptedException ioe) {
+			ioe.printStackTrace();
+		}
 	}
 }
