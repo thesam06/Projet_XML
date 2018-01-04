@@ -44,14 +44,7 @@
        <scope>provided</scope>
    </dependency>
 
-   <!-- https://mvnrepository.com/artifact/org.jboss.resteasy/tjws -->
-   <dependency>
-       <groupId>org.jboss.resteasy</groupId>
-       <artifactId>tjws</artifactId>
-       <version>3.1.4.Final</version>
-       <scope>test</scope>
-   </dependency>
-
+   
    <!-- https://mvnrepository.com/artifact/org.xmldb/xmldb-api -->
    <!-- https://mvnrepository.com/artifact/xmldb/xmldb-api -->
    <dependency>
@@ -163,16 +156,6 @@
             </plugin>
 
             
-<<<<<<< HEAD
-        </plugins>
-    </pluginManagement>
-    <plugins>
-
-
-        <plugin>
-=======
-        <!-- </plugins> -->
-    <!-- <plugins> -->
           <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>jaxb2-maven-plugin</artifactId>
@@ -217,7 +200,6 @@
           </plugin>
 
           <plugin>
->>>>>>> 450288c2bcdb297433f2e82ff093c0a781b25f7d
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>exec-maven-plugin</artifactId>
             <version>1.6.0</version>
@@ -229,8 +211,7 @@
                 </execution>
             </executions>
             <configuration>
-<<<<<<< HEAD
-                <mainClass>fr.unice.miage.m1.alichamlausam.Main</mainClass>
+                <mainClass>fr.unice.miage.m1.alichamlausam.XQueryUti</mainClass>
             </configuration>
         </plugin>
 
@@ -240,12 +221,13 @@
             <version>9.2.11.v20150529</version>
         </plugin>
 
-        <plugin>
+        
+          <plugin>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.5</version>
             <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
+                <source>1.8</source>
+                <target>1.8</target>
             </configuration>
         </plugin>
 
@@ -257,15 +239,9 @@
             <failOnMissingWebXml>false</failOnMissingWebXml>
           </configuration>
         </plugin>
-    </plugins>
-=======
-              <mainClass>fr.unice.miage.m1.alichamlausam.XQueryUtil</mainClass>
-            </configuration>
-          </plugin> 
       </plugins>
 
     </pluginManagement>
->>>>>>> 450288c2bcdb297433f2e82ff093c0a781b25f7d
 
 
 
