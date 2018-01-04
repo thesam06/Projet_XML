@@ -101,14 +101,7 @@
           <scope>provided</scope>
       </dependency>
 
-      <!-- https://mvnrepository.com/artifact/org.mortbay.jetty/jetty-maven-plugin -->
-      <dependency>
-          <groupId>org.mortbay.jetty</groupId>
-          <artifactId>jetty-maven-plugin</artifactId>
-          <version>8.1.16.v20140903</version>
-          <scope>test</scope>
-      </dependency>
-
+      
 
 
   </dependencies>
@@ -137,21 +130,6 @@
                     <httpConnector>
                         <port>8888</port>
                     </httpConnector>
-                </configuration>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                        <archive>
-                            <manifest>
-                                <addClasspath>true</addClasspath>
-                            </manifest>
-                        </archive>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-
                 </configuration>
             </plugin>
 
@@ -211,7 +189,7 @@
                 </execution>
             </executions>
             <configuration>
-                <mainClass>fr.unice.miage.m1.alichamlausam.XQueryUti</mainClass>
+                <mainClass>fr.unice.miage.m1.alichamlausam.XQueryUtil</mainClass>
             </configuration>
         </plugin>
 
