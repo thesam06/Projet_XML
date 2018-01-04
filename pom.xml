@@ -133,7 +133,7 @@
                 </configuration>
             </plugin>
 
-            
+
           <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>jaxb2-maven-plugin</artifactId>
@@ -193,11 +193,12 @@
             </configuration>
         </plugin>
 
+        <!-- jetty-maven-plugin est deja declare 
         <plugin>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-maven-plugin</artifactId>
             <version>9.2.11.v20150529</version>
-        </plugin>
+        </plugin>-->
 
         
           <plugin>
@@ -223,19 +224,18 @@
 
 
 
+
   </build>
+  
   <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      
     </properties>
 	<repositories>
 		<repository>
 	          <id>exist</id>
 	          <url>https://raw.github.com/eXist-db/mvn-repo/master/</url>
 	    </repository>
-
 	</repositories>
-
 </project>
 
 <!--
