@@ -44,13 +44,6 @@
        <scope>provided</scope>
    </dependency>
 
-   <!-- https://mvnrepository.com/artifact/org.jboss.resteasy/tjws -->
-   <dependency>
-       <groupId>org.jboss.resteasy</groupId>
-       <artifactId>tjws</artifactId>
-       <version>3.1.4.Final</version>
-       <scope>test</scope>
-   </dependency>
 
    <!-- https://mvnrepository.com/artifact/org.xmldb/xmldb-api -->
    <!-- https://mvnrepository.com/artifact/xmldb/xmldb-api -->
@@ -115,7 +108,21 @@
           <version>8.1.16.v20140903</version>
           <scope>test</scope>
       </dependency>
-
+      <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-server</artifactId>
+          <version>RELEASE</version>
+      </dependency>
+      <dependency>
+          <groupId>org.mortbay.jetty</groupId>
+          <artifactId>jetty</artifactId>
+          <version>6.1.25</version>
+      </dependency>
+      <dependency>
+          <groupId>org.mortbay.jetty</groupId>
+          <artifactId>jetty</artifactId>
+          <version>6.1.25</version>
+      </dependency>
 
 
   </dependencies>
@@ -162,15 +169,7 @@
                 </configuration>
             </plugin>
 
-            
-<<<<<<< HEAD
-        </plugins>
-    </pluginManagement>
-    <plugins>
 
-
-        <plugin>
-=======
         <!-- </plugins> -->
     <!-- <plugins> -->
           <plugin>
@@ -229,8 +228,8 @@
                 </execution>
             </executions>
             <configuration>
-<<<<<<< HEAD
-                <mainClass>fr.unice.miage.m1.alichamlausam.Main</mainClass>
+
+                <mainClass>fr.unice.miage.m1.alichamlausam.XQueryUtil</mainClass>
             </configuration>
         </plugin>
 
@@ -258,15 +257,7 @@
           </configuration>
         </plugin>
     </plugins>
-=======
-              <mainClass>fr.unice.miage.m1.alichamlausam.XQueryUtil</mainClass>
-            </configuration>
-          </plugin> 
-      </plugins>
-
     </pluginManagement>
->>>>>>> 450288c2bcdb297433f2e82ff093c0a781b25f7d
-
 
 
   </build>
